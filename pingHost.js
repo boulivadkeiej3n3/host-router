@@ -17,7 +17,7 @@ let ServersList =[];
 
     setInterval((req,res)=>{
         try{
-        Axios.get(`https://get-ping-host.onrender.com/`, {headers: { "Accept-Encoding": "gzip,deflate,compress" } });
+        Axios.get(`https://host-router.onrender.com/`, {headers: { "Accept-Encoding": "gzip,deflate,compress" } });
         }catch(e){console.log(e.message)}
     },(5*60000))
 })();

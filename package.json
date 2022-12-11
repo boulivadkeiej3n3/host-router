@@ -1,0 +1,14 @@
+{
+  "name": "pingHost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pingHost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "mongoose": "^6.8.0","axios":"latest"
+  }
+}
